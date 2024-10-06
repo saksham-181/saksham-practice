@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card
+        {
+            padding-top: 4%;
+            padding-bottom: 4%;
+            padding-left: 7%;
+            padding-right: 7%;        
+        }
+        .line::before
+        {
+            content: '----------';
+        }
+        .line
+        {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        .line::after
+        {
+            content: '----------'
+        }
+        .margin
+        {
+            width: 30%;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" align="center" width="60%">
+        <tr>
+            <td>
+                <div class="card">
+                    <table border="1" align="center" width="100%">
+                        <tr>
+                            <td colspan="2">
+                                <div class="line">
+                                    Register
+                                </div>
+                                <div align="center" style="margin-bottom: 3%;">
+                                    Create your account. It's free and only takes a minute
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="margin-top: 3%;margin-left: 2%;margin-bottom: 3%;">
+                                    <input type="text" name="" id="" placeholder="First Name" class="margin">
+                                    
+                                </div>
+                                <span style="float: right; margin-top: -10%;">
+                                    <input type="text" name="" id="" placeholder="Last Name" style="width: 70%;height: 20px;">
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div>
+                                    <input type="email" name="" id="" placeholder="Email">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div>
+                                    <input type="password" name="" id="" placeholder="Password">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div>
+                                    <input type="password" name="" id="" placeholder="Confirm Password">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div>
+                                    <input type="checkbox" name="" id="">I accept the <span>Term of Use</span> & <span>Privacy Policy</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div>
+                                    <input type="submit" value="Register Now">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
